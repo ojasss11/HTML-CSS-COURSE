@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+/* font-family: "Cedarville Cursive", cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+/* font-family: "Silkscreen", sans-serif; */
+.main {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(154, 220, 198);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* MAIN AXIS::justify-content
+CROSS AXIS:align-items */
+#box1 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+#box3 {
+  width: 100px;
+  height: 100px;
+  background-color: darkgreen;
+}
+table tr td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#head1 {
+  background-color: blanchedalmond;
+}
+#body1 {
+  background-color: yellow;
+}
+#f1 {
+  background-color: tomato;
+}
+.mainOne {
+  /* border: 2px solid red; */
+  /* width: 50%; */
+  width: 50vw;
+  height: 50vh;
+}
+.sectionOne {
+  /* border: 2px solid blue; */
+}
+#firsth1 {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-size: 5em;
+}
+#newh3 {
+  color: blue;
+  font-size: 2em;
+}
+#paraone {
+  text-transform: uppercase;
+  text-align: end;
+  text-indent: 40px;
+  font-family: "Cedarville Cursive", cursive;
+}
+.container {
+  background-color: #ccfbf1;
+  width: 1500px;
+  height: 500px;
+  display: flex;
+  border: 5px solid black;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* justify-content: space-evenly; */
+  /* justify-content: center;
+  align-items: center; */
+}
+.box {
+  border: 1px solid brown;
+  margin: 10px;
+  /* width: 100px; */
+  /* height: 100px; */
+}
+#box1 {
+  background-color: #facc15;
+}
+#box2 {
+  background-color: #a3e635;
+}
+#box3 {
+  background-color: #f43f5e;
+}
+#box4 {
+  background-color: tomato;
+}

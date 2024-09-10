@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  /* display: flex; */
+  height: 500px;
+  width: 500px;
+  background-color: #f0abfc;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: start;
+  align-items: start; */
+  justify-content: start;
+  align-items: start;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  padding: 2px;
+  border: 1px solid black;
+  flex-grow: 1;
+}
+#box1 {
+  background-color: #fbbf24;
+  order: 500;
+  /* align-self: center; */
+  /* align-self: start; */
+  /* align-self: end; */
+  align-self: start;
+}
+#box2 {
+  background-color: #a3e635;
+  order: 501;
+  /* align-self: start; */
+  /* align-self: flex-end; */
+  /* align-self: center; */
+}
+#box3 {
+  order: 502;
+  background-color: #06b6d4;
+}
+#box4 {
+  order: 503;
+  background-color: #e11d48;
+}
+p {
+  display: inline;
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  /* When the elements are inline we cannot increase it's width and height */
+}
+p {
+  /* display: inline-block; */
+  /* If display is inline block then it allows you to increase it's width and height
+   */
+}
+a {
+  display: block;
+}
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+#car1 {
+  width: 200px;
+  height: 200px;
+  background-color: #4338ca;
+  /* margin:10px */
+  /* position: absolute; */
+}
+#car2 {
+  width: 500px;
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 50%; */
+  height: 200px;
+  background-color: #0d9488;
+}
+#car3 {
+  width: 700px;
+  height: 200px;
+  background-color: #d946ef;
+}
+#boxer {
+  position: relative;
+  /* position: fixed; */
+  /* JISKE ANDAR RAKHNA HAI USKo karde relative */
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+}
+#cube {
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  width: 30px;
+  height: 30px;
+  background-color: #00fc3b;
+}
+/* position:fixed ki bhenchod scroller aajaye lekin vo element vahi ka vahi rahe */

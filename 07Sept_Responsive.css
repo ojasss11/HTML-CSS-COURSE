@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* font-family: "Roboto", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+/* font-family: "Cedarville Cursive", cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Roboto;
+}
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: crimson;
+}
+#inner {
+  height: 200px;
+  width: 200px;
+  background-color: royalblue;
+}
+#div2 {
+  height: 300px;
+  width: 300px;
+  background-color: blueviolet;
+}
+#child2 {
+  height: 30%;
+  width: 30%;
+  /* Yaha pe percentage apne parent ka 30% lega*/
+  background-color: aqua;
+}
+/* vw-->indicates viewport width
+vh-->indicates viewport height */
+#div3 {
+  height: 500px;
+  width: 500px;
+  background-color: #a3e635;
+}
+#inner3 {
+  height: 50%;
+  width: 50vw;
+  /* 50vw -->matlab vo screen ke hisab se 50% lega*/
+  background-color: #4f46e5;
+}
+/* 50vw -->it takes width according to full screen width
+   */
+#mainh1 {
+  font-size: 7vmin;
+}
+/* vh <vw (vh vw se chota hota hai comparatively) */
+/* laptop pe=>width jyada height kam
+aur MOBILE PHONES pe=>height JYADA aur width kam */
+#parent {
+  background-color: #dadada;
+  width: 90%;
+  font-size: 40px;
+}
+h1 {
+  /* font-size: 50px; */
+  /* font-size: 2em; */
+  /* Em-->with respect to parent */
+}
+h2 {
+  /* font-size: 40px; */
+  /* font-size: 1em; */
+}
+h3 {
+  /* font-size: 50px; */
+  /* font-size: 0.5em; */
+}
+#parent2 {
+  width: 700px;
+  height: 700px;
+  background-color: yellow;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#children1 {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border: 2px solid black;
+  margin: 10px;
+}
+#children2 {
+  margin: 10px;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  background-color: tomato;
+}
+#children3 {
+  margin: 10px;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  background-color: limegreen;
+}
+/* x axis is the main axis in the flexbox
+y axis is the cross axis in the flexbox 
+if we want to use properties for cross axis we can use ALIGN-ITEMS
+if we want to use properties for main axis we can use JUSTIFY-CONTENT*/
+#parent_prac1 {
+  height: 500px;
+  width: 500px;
+  background-color: #042f2e;
+}
+#child_prac1 {
+  /* PERCENTAGE indicates that much percent of the parent
+  eg]50% tells that the height and width will be the 50% of it's parentx */
+  height: 50%;
+  width: 50%;
+  background-color: #99f6e4;
+}
+/* VIEWPORT width and VIEWPORT height
+ */
+#parent_prac2 {
+  height: 30vh;
+  width: 30vw;
+  background-color: #701a75;
+}
+#child_prac2 {
+  height: 10vh;
+  width: 10vw;
+  background-color: #f5d0fe;
+}
+#test {
+  font-size: 4vmax;
+  font-family: "Cedarville Cursive", cursive;
+  text-decoration: underline;
+}
+.headingPrac {
+  font-size: 3vw;
+}

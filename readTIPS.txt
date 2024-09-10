@@ -1,0 +1,14 @@
+EK BOX JO RED HAI
+BOX=DIV
+Jaha bhi ek se jyada elements dikhe==>DIV
+Jaha bhi rectangular shape dikhe==>DIV
+
+box banao html main
+DIV ko width height dijiye CSS main
+BACKGROUND COLOR DIJIYE
+color==textcolor
+background-color===background-color KA COLOR
+UNITS IN CSS::
+paani==litres
+solid=== kg g
+UNITS IN CSS: % px vw vh min-height max-height  rem em

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+/* font-family: "Cedarville Cursive", system-ui; */
+/*  font-family: "Playpen Sans", cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: lightseagreen;
+  display: grid;
+  /* grid-template-rows: 100px 100px;
+  grid-template-columns: 100px 100px; */
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  align-items: center;
+  justify-items: center;
+  /* instead of justify content there is JUSTIFY ITEMS IN GRID */
+}
+.elem {
+  height: 100px;
+  width: 100px;
+  background-color: #312e81;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e0e7ff;
+  font-size: 1rem;
+  margin: 1px;
+}
+#ojas {
+  background-color: #be123c;
+  height: 9%;
+  width: 100%;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: 50% 10% 10% 10% 10% 10%;
+}
+.subtopics {
+  font-size: 1.2rem;
+  font-family: "Playpen Sans", cursive;
+  color: #ffe4e6;
+  align-self: center;
+}
+#ojas h1 {
+  font-family: "Playpen Sans", cursive;
+  font-weight: 500;
+  color: #fdf4ff;
+  justify-self: start;
+  /* margin-left: 20px; */
+}

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  background-color: cornflowerblue;
+  display: grid;
+  grid-template-columns: 50% 10% 10% 10% 10% 10%;
+  grid-template-rows: 100px;
+  align-items: center;
+  justify-items: center;
+  padding: 0 20px;
+  /* grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr; */
+}
+.inside {
+  /* background-color: #d9f99d; */
+}
+#inside1 {
+  justify-self: start;
+  /* margin-left: 50px; */
+}

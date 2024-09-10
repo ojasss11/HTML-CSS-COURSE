@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&family=Ribeye+Marrow&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+/*  font-family: "Roboto", system-ui;
+font-family: "Ribeye Marrow", system-ui;
+ font-family: "Playwrite CU", system-ui;
+ font-family: "Cedarville Cursive", cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes move {
+  /* from {
+    top: 0;
+    left: 0;
+    background-color: crimson;
+  }
+  to {
+    top: 80%;
+    rotate: 360deg;
+    left: 70%;
+    background-color: blue;
+    border-radius: 50%;
+  } */
+  0% {
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    rotate: 360deg;
+  }
+  50% {
+    top: 0;
+    left: 60%;
+    background-color: blue;
+    rotate: 0deg;
+  }
+  100% {
+    top: 60%;
+    left: 60%;
+    background-color: lightblue;
+    rotate: 360deg;
+  }
+}
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border: 5px solid black;
+  position: absolute;
+  /* APPLY ANIMATION */
+  animation-name: move;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  /* animation-delay: 1s; */
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+#box2 {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border: 5px solid black;
+  position: absolute;
+  animation-name: move2;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+#box3 {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  border: 5px solid black;
+  position: absolute;
+  animation-name: move3;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+@keyframes move2 {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    rotate: 360deg;
+  }
+  100% {
+    top: 60%;
+    left: 60%;
+    background-color: lightblue;
+    rotate: 360deg;
+  }
+}
+@keyframes move3 {
+  0% {
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    rotate: 360deg;
+  }
+  50% {
+    top: 60%;
+    left: 0%;
+    background-color: blue;
+    rotate: 360deg;
+  }
+  100% {
+    top: 60%;
+    left: 60%;
+    background-color: lightblue;
+    rotate: 360deg;
+  }
+}
+h1 {
+  color: brown;
+  font-size: 5rem;
+  /* font-family: "Cedarville Cursive", cursive;  */
+  /* font-family: "Roboto", system-ui; */
+  /* font-family: "Ribeye Marrow", system-ui; */
+  font-family: "Playwrite CU", system-ui;
+}
+h1::after {
+  content: ":)";
+}
